@@ -3,5 +3,5 @@
 .venv
 
 # gold_data
-data/gold_data_raw_combined.csv
+data/gold_data.csv
 data/gold_data/
