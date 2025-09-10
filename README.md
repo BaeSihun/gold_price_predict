@@ -26,6 +26,7 @@ MLproject/
 │   ├── gold_data.ipynb        # 데이터 전처리 및 결합 노트북
 │   └── gold_data.csv          # 전처리된 통합 데이터셋
 ├── LSTM_GRU.ipynb            # 딥러닝 모델 (LSTM, GRU)
+├── RANDOM_FOREST.ipynb       # Random Forest 머신러닝 모델
 ├── XGBOOST.ipynb             # XGBoost 머신러닝 모델
 └── README.md                  # 프로젝트 문서 (현재 파일)
 ```
@@ -162,7 +163,11 @@ MLproject/
 - **주요 기능**:
 
 
-#### 3. XGBOOST.ipynb
+#### 3. RANDOM_FOREST.ipynb
+- **목적**: Random Forest 모델 개발 및 분석
+- **주요 기능**:
+
+#### 4. XGBOOST.ipynb
 - **목적**: XGBoost 모델 상세 분석 및 최적화
 - **주요 기능**:
-  - 고급 특성 엔지니어링 (래그, 롤링, 성장률, 주기성)
+
