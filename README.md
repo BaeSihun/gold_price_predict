@@ -199,8 +199,32 @@ MLproject/
 #### 3. RANDOM_FOREST.ipynb
 - **목적**: Random Forest 모델 개발 및 분석
 - **주요 기능**:
+  - **다양한 파생 변수(피처 엔지니어링)**를 생성하여 금 가격 예측
+  - **RandomForest(RandomForestRegressor)**를 활용한 회귀 모델 구성(Optuna로 하이퍼파라미터 최적화)
+  - StandardScaler로 데이터 정규화 후 Lag, 이동 평균, 변동률 등의 특성(Feature)을 입력으로 사용
+  - 훈련/테스트 데이터 분리(80:20) 후 모델 학습 및 검증
+  - 실제 값 vs 예측 값 시각화로 결과 비교
+ 
+  - **RANDOMFOREST 회귀 결과**
+    | 지표(Metric) | 값(Value) |
+    | :-:  | :-: |
+    | R² Score  | 0.9973  |
+    | RMSE  | 24.31 |
+    | MAE | 16.99 |
+    
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/ab47a0fa-ffda-4265-9f17-9dca05ba1181" />
 
 #### 4. XGBOOST.ipynb
 - **목적**: XGBoost 모델 상세 분석 및 최적화
 - **주요 기능**:
-
+  - **XGBoost(XGBRegressor)**를 활용한 회귀 모델 구성 (Optuna로 하이퍼파라미터 최적화)
+  - 훈련/테스트 데이터 분리(80:20) 후 모델 학습 및 검증
+  - 실제 값 vs 예측 값 시각화로 결과 비교
+- **XGBOOST 회귀 결과**
+  | 지표(Metric) | 값(Value) |
+  | :-:  | :-: |
+  | R² Score  | 0.9826  |
+  | RMSE  | 61.94 |
+  | MAE | 47.48 |
+  
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/15f6b750-faef-4a5c-bb2c-0214e00d22e4" />
